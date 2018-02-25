@@ -4,7 +4,7 @@ description: "Home"
 # classes: wide
 ---
 
-Wrote an [open-source analysis tool](https://fedebarabas.github.io/projects/) in Python that enabled automated and unbiased quantification of structures in biological images. I also write an [open-source software](projects/#gollum) to integrate lasers, cameras and other devices into automated smart microscopes. 
+Wrote an [open-source analysis tool](projects/#gollum) in Python that enabled automated and unbiased quantification of structures in biological images. I also write an [open-source software](projects/#tormenta) to integrate lasers, cameras and other devices into automated smart microscopes. 
 
 Excited about data science, visualization and machine learning methods. Currently taking [Andrew Ng's specialization](https://www.coursera.org/specializations/deep-learning) and [fast.ai](http://course.fast.ai/) deep learning courses.
 
