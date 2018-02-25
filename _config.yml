@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "FedeBarabas homepage"
+title                    : ""
 title_separator          : "-"
 name                     : "Federico M Barabas"
 description              : "Federico M Barabas personal website."
@@ -103,7 +103,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "federico-barabas-b0660b128"
+  linkedin         : "fbarabas"
   pinterest        :
   soundcloud       :
   stackoverflow    : "2834480/federico"

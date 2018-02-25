@@ -256,7 +256,11 @@
           </a>
         </li>
       {% endif %}
-
+      
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="fab fa-fw fas fa-graduation-cap"></i> Google Scholar</a></li>
+      {% endif %}
+      
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
