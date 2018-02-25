@@ -4,7 +4,9 @@ description: "Home"
 # classes: wide
 ---
 
-I write open-source code to integrate lasers, cameras and other devices into automated smart microscopes. I analyze imaging data by building custom tools that I share with the research community. Excited about data science, visualization and machine learning methods. Currently taking [Andrew Ng's specialization](https://www.coursera.org/specializations/deep-learning) and [fast.ai](http://course.fast.ai/) deep learning courses.
+I analyze imaging data by building custom tools that I share with the research community. I also write open-source code to integrate lasers, cameras and other devices into automated smart microscopes. 
+
+Excited about data science, visualization and machine learning methods. Currently taking [Andrew Ng's specialization](https://www.coursera.org/specializations/deep-learning) and [fast.ai](http://course.fast.ai/) deep learning courses.
 
 ### Bio
 
@@ -12,7 +14,7 @@ I got my Licenciate and PhD degrees from the University of Buenos Aires, Argenti
 
 
 I also like
-* space exploration
+* space exploration and astronomy
 * these subreddits: [/r/dataisbeautiful/](https://www.reddit.com/r/dataisbeautiful/), [/r/MapPorn](https://www.reddit.com/r/MapPorn/) 
 * [www.sadanduseless.com](https://www.sadanduseless.com)
 * bike touring :bike:
