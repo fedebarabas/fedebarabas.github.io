@@ -1,9 +1,9 @@
 ---
-layout: posts
+layout: article
 title: Name similarity
 categories: projects
 modified: 2016-06-01T16:28:11-04:00
-tags: [sample]
+tags: [python, pandas, pca]
 comments: true
 share: true
 image:
