@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: posts
 title: Name similarity
 categories: projects
 modified: 2016-06-01T16:28:11-04:00
@@ -29,7 +29,7 @@ folder = os.getcwd()
 file_name = os.path.join(folder, 'historico-nombres.csv')
 
 df = pandas.read_csv(file_name)
-df.columns = ['name', 'amount', 'year'] 
+df.columns = ['name', 'amount', 'year']
 df.head()
 ```
 
@@ -109,11 +109,11 @@ df.name = df.name.str.encode('ascii', errors='ignore').str.decode('utf-8')
 df.name = df.name.str.replace(r"\(.*","")
 df.name = df.name.str.lower()
 
-# After processing, we will have repeated entries (the same name appearing in a single year) that we need to sum 
+# After processing, we will have repeated entries (the same name appearing in a single year) that we need to sum
 df = df.groupby(['name', 'year']).sum().reset_index()
 ```
 
-A fair comparison year to year would use naming probabilities instead of naming amounts. Therefore, we need to divide each value by each year's total. 
+A fair comparison year to year would use naming probabilities instead of naming amounts. Therefore, we need to divide each value by each year's total.
 
 
 ```python
@@ -163,7 +163,7 @@ df = df.groupby('name').filter(lambda x: np.any(x.probability > 0.05))
 print('Number of different names: ', df.name.nunique())
 ```
 
-The features of each name will be each year's naming probability. Therefore, we have to move the years to the columns labels. This way, every single name will be represented as a row. Since this dataset does not include years with naming amount equal to zero, in the new representation missing data will have to be replaced by zeroes. 
+The features of each name will be each year's naming probability. Therefore, we have to move the years to the columns labels. This way, every single name will be represented as a row. Since this dataset does not include years with naming amount equal to zero, in the new representation missing data will have to be replaced by zeroes.
 
 
 ```python
@@ -434,7 +434,7 @@ print(results)
     238             maria     2.14243
     260    maria cristina     2.91974
     31          ana maria     4.44416
-    
+
     [515 rows x 2 columns]
 
 
@@ -556,7 +556,7 @@ pca_df.head()
 sample = pca_df.sample(frac=0.5, replace=True) # We keep half of the data so that the graph is less messy
 
 fig = plt.figure(figsize = (15, 15))
-ax = fig.add_subplot(1, 1, 1) 
+ax = fig.add_subplot(1, 1, 1)
 ax.scatter(sample['principal component 1'], sample['principal component 2'], s=50)
 for index, row in sample.iterrows():
     ax.annotate(row['name'], (row['principal component 1'], row['principal component 2']))
