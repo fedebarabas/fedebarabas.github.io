@@ -9,8 +9,8 @@
     @include fill-parent;
   }
   @include media($small) {
-    @include span-columns(2);
-    @include omega(4n);
+    @include span-columns(3);
+    @include omega(2n);
   }
   .entry-date {
     @include font-size(16,no);
