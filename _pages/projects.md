@@ -5,7 +5,7 @@ date: 2018-02-18
 modified: 2018-03-25
 ---
 
-Projects big and small I've been working on
+# Projects big and small I've been working on
 
 <div>
 {% for post in site.categories.projects %}
