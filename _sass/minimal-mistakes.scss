@@ -9,6 +9,7 @@
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@import "minimal-mistakes/vendor/bourbon/bourbon";
 @import "minimal-mistakes/grid-settings";
 
 @include breakpoint-set("to ems", true);
