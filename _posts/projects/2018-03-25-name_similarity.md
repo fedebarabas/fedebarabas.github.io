@@ -151,7 +151,7 @@ print(n - max_probabilities.value_counts(bins=bins).cumsum().iloc[:5])
 
 
 
-![png](name_similarity_files/output_8_1.png)
+![png](images/2018-03-25-name_similarity_1.png)
 
 
 We see we have over 3 million different names but only less than 1000 reach a probability of 0.05%. The histogram shows there are more than three orders of magnitude between the first and second bin. Since we will only be interested in fairly common names, we will just keep those with a maximum probability of at least 0.05.
@@ -465,7 +465,7 @@ ax1.grid()
 
 
 
-![png](name_similarity_files/output_24_1.png)
+![png](images/2018-03-25-name_similarity_2.png)
 
 
 We would like to visualize the whole dataset. We apply principal component analysis to reduce the amount of features to 2, so that we can visualize them in a 2d plot. Following [this guide](https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60).
@@ -569,7 +569,7 @@ ax.grid()
 ```
 
 
-![png](name_similarity_files/output_27_0.png)
+![png](images/2018-03-25-name_similarity_3.png)
 
 
 Cool!
