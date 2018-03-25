@@ -1,7 +1,30 @@
 ---
+layout: archive
 permalink: projects/
 title: projects
+date: 2014-05-30T11:40:45-04:00
+modified:
+excerpt: "An archive of media posts, perfect for portfolios and galleries."
+tags: []
+image:
+  feature:
+  teaser:
 ---
+
+<div class="tiles">
+{% for post in site.categories.projects %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
+
+## Gollum
+
+<figure>
+	<a href="/assets/images/gollum.gif"><img src="/assets/images/gollum.gif"></a>
+</figure>
+
+Automated image analysis tool for quantifying the presence of a given periodical structure. Originally developed to identify the 190 nm periodical structure in the actin/spectrin cytoskeleton of neurons, as first revealed by super-resolution fluorescence microscopy methods.
+[Link to repository](https://github.com/fedebarabas/ringfinder). [Link to paper](https://doi.org/10.1038/s41598-017-16280-x).
 
 ## Gollum
 
