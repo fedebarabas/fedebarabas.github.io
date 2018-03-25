@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Name similarity
 categories: projects
 modified: 2016-06-01T16:28:11-04:00
