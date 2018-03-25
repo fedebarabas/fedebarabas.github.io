@@ -7,7 +7,7 @@ tags: [sample]
 comments: true
 share: true
 image:
-  teaser: _posts/projects/2018-03-25-name_similarity/output_8_1.png
+  teaser: /_posts/projects/2018-03-25-name_similarity/output_8_1.png
 ---
 
 ## How do we measure the similarity of names in terms of the evolution of their use over time?
