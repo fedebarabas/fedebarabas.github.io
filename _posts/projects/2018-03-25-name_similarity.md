@@ -10,6 +10,8 @@ image:
   teaser: 2018-03-25-name_similarity.png
 ---
 
+Analysis of the similarity of names in terms of its use evolution in Argentina between 1922 and 2015.
+
 ## How do we measure the similarity of names in terms of the evolution of their use over time?
 
 This is the question that kickstarted this small toy project. It gave me a nice excuse to take my first steps into the pandas project. We took data from Argentina's public data portal so the results are only applicable there. The ideas could be adapted to any population if the data is available.
