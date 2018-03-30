@@ -585,6 +585,6 @@ This was a fun idea! It could be extended to add more features and further expan
 + length
 + whether it is a single word name or not
 
-You can find the jupyter notebook from this post [here](/projects/2018-03-25-name_similarity.ipynb).
+You can find the jupyter notebook from this post [here](https://raw.githubusercontent.com/fedebarabas/fedebarabas.github.io/master/_posts/projects/2018-03-25-name_similarity.ipynb).
 
 For the moment, the analysis presented here fulfills my pandas practice needs. Would you have done it differently? Is it possible to optimize some part of it? Please let me know in the comments!
