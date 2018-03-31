@@ -4,9 +4,6 @@ layout: archive
 
 {{ content }}
 
-<<<<<<< HEAD
-
-=======
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
@@ -30,4 +27,3 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
->>>>>>> 2248a4b1ba6c4ecb50058c709d7bf9d37ea4f27f
