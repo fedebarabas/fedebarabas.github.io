@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<<<<<<< HEAD
 <div id="main" role="main">			
 	<div class="wrap">
 		{% if page.image.feature %}
@@ -23,3 +24,27 @@ layout: default
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
 </div><!-- /#main -->
+=======
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
+>>>>>>> 2248a4b1ba6c4ecb50058c709d7bf9d37ea4f27f
