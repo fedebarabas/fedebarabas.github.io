@@ -2,6 +2,7 @@
 layout: single
 description: "Home"
 share: false
+comments: false
 ---
 
 Wrote an [open-source analysis tool](projects/#gollum) in Python that enabled automated and unbiased quantification of structures in biological images. I also developed a [modular control software](projects/#tormenta) to integrate lasers, cameras and other devices into automated smart microscopes.
