@@ -8,6 +8,7 @@ comments: true
 share: true
 read_time: true
 image:
+  header: 2018-03-25-name_similarity.png
   teaser: 2018-03-25-name_similarity.png
 ---
 
