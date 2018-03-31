@@ -19,7 +19,7 @@ layout: default
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
-				<hr />
+				{% if page.share %}{% include social-share.html %}{% endif %}
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>
