@@ -1,6 +1,6 @@
 ---
-permalink: resume/
-title: resume
+permalink: cv/
+title: cv
 share: true
 comments: false
 ---

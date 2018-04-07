@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "projects"
-    url: /projects/
-  - title: "resume"
-    url: /resume/
+  - title: "portfolio"
+    url: /portfolio/
+  - title: "cv"
+    url: /cv/
