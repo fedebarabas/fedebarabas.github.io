@@ -20,5 +20,4 @@ Now working as a postdoc researcher at [TestaLab](http://testalab.org/), [SciLif
 ### I also like
 * space exploration and astronomy
 * these subreddits: [/r/dataisbeautiful/](https://www.reddit.com/r/dataisbeautiful/), [/r/MapPorn](https://www.reddit.com/r/MapPorn/)
-* [www.sadanduseless.com](https://www.sadanduseless.com)
 * bike fixing and touring :bike:
