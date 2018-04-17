@@ -10,6 +10,9 @@ read_time: true
 image:
   header: 2018-04-14-smart_cash.png
   teaser: 2018-04-14-smart_cash.png
+  
+header:
+  teaser: "images/2018-04-14-smart_cash-thumb.png"
 ---
 
 Visualization of the relative purchasing power of mean wages in each swedish county. Created for Hack For Sweden 2018.
