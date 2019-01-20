@@ -4,15 +4,12 @@ title: Name temporal similarity
 categories: projects
 modified: 2016-06-01T16:28:11-04:00
 tags: [python, pandas, pca]
-comments: true
-share: true
-read_time: true
 image:
   header: 2018-03-25-name_similarity.png
   teaser: 2018-03-25-name_similarity.png
 ---
 
-Analysis of the similarity of names in terms of its use evolution in Argentina between 1922 and 2015.
+Evolution usage-based similarity of names in Argetnina.
 
 ## How do we measure the similarity of names in terms of the evolution of their use over time?
 
@@ -586,6 +583,6 @@ This was a fun idea! It could be extended to add more features and further expan
 + length
 + whether it is a single word name or not
 
-You can find the jupyter notebook from this post [here](https://raw.githubusercontent.com/fedebarabas/fedebarabas.github.io/master/_posts/projects/2018-03-25-name_similarity.ipynb).
+You can find the jupyter notebook from this post [here](https://raw.githubusercontent.com/fedebarabas/fedebarabas.github.io/master/notebooks/2018-03-25-name_similarity.ipynb).
 
 For the moment, the analysis presented here fulfills my pandas practice needs. Would you have done it differently? Is it possible to optimize some part of it? Please let me know in the comments!

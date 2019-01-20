@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 # Site Settings
@@ -17,7 +17,8 @@ description              : "Federico M Barabas personal website."
 url                      : "https://fedebarabas.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "fedebarabas/fedebarabas.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/face.jpg"
+masthead_title           : "home"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -87,7 +88,7 @@ analytics:
 author:
   name             : "Federico M Barabas"
   avatar           : "/assets/images/face.jpg"
-  bio              : "physicist + data enthusiast"
+  bio              : "data scientist"
   location         : "Stockholm, Sweden"
   email            : "fede.barabas@gmail.com"
   uri              :
@@ -251,6 +252,19 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
+      classes: wide
+
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
       author_profile: true
       read_time: false
       comments: true

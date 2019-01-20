@@ -1,21 +1,18 @@
 ---
 layout: article
-title: Swedish wages local purchasing power
+title: Swedish local purchasing power
 categories: projects
 modified: 2016-06-01T16:28:11-04:00
 tags: [python, pandas, geojson, choropleth]
-comments: true
-share: true
-read_time: true
 image:
   header: 2018-04-14-smart_cash.png
   teaser: 2018-04-14-smart_cash.png
-  
+
 header:
   teaser: "images/2018-04-14-smart_cash-thumb.png"
 ---
 
-Visualization of the relative purchasing power of mean wages in each swedish county. Created for Hack For Sweden 2018.
+Visualization for wages purchasing power in swedish counties.
 
 ---
 
@@ -255,7 +252,7 @@ I used [wikitable2csv](http://wikitable2csv.ggor.de/) for converting the populat
 
 
 ```python
-# Loading and preprocessing local population information. 
+# Loading and preprocessing local population information.
 muni = pd.read_csv(os.path.join(folder, 'municipalities.csv'))
 muni['County'] = muni['County'].str.replace(' County', '')
 muni['Municipality'] = muni['Municipality'].str.replace(' Municipality', '')

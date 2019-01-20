@@ -5,19 +5,16 @@ share: false
 comments: false
 ---
 
-I wrote an [open-source analysis tool](projects/gollum) in Python that enabled automated and unbiased quantification of structures in biological images. I also developed a [modular control software](projects/tormenta) to integrate lasers, cameras and other devices into automated smart microscopes. See
+Currently exploiting the possibilities of large scale data analysis for research of women's health at [Natural Cycles](https://www.naturalcycles.com/), Stockholm.
 
-Excited about data science, visualization and machine learning methods. Learning every day from Kaggle and Coursera.
+During my academic career as an experimental physicist, I worked in areas such as [cosmic particle physics](https://www.auger.org/) and [next-generation biological microscopes](http://testalab.org/). I made the jump to the data science world in 2018.
 
-### Bio
+Interested in all things stats, data science and visualization.
 
-I got my Licenciate (equivalent to bachelor + master) and PhD degrees in Physics from the University of Buenos Aires, Argentina.  
-For my Licenciate thesis I studied the counting statistical efficiency of cosmic particle detectors for the [Pierre Auger Observatory](https://www.auger.org/).
-For my PhD thesis at the [Applied Nanophysics Group](http://www.nano.df.uba.ar/), [CIBION](http://www.cibion-conicet.gob.ar/?lan=en), I designed and built a state-of-the-art microscope, capable of acquiring images of biological samples at the nanometric scale.
-
-Now working as a postdoc researcher at [TestaLab](http://testalab.org/), [SciLifeLab](http://www.scilifelab.se/) in Stockholm. Here, we devise new ways of looking at cellular structures beyond the current limits in the spatial and temporal domains.
+[:panda_face:](/pandas/)
 
 ### I also like
 * space exploration and astronomy
+* data journalism
 * these subreddits: [/r/dataisbeautiful/](https://www.reddit.com/r/dataisbeautiful/), [/r/MapPorn](https://www.reddit.com/r/MapPorn/)
 * bike fixing and touring :bike:

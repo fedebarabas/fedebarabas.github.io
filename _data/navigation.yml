@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "portfolio"
-    url: /portfolio/
+#  - title: "pandas"
+#    url: /pandas/
+  - title: "projects gallery"
+    url: /gallery/
   - title: "cv"
     url: /cv/
