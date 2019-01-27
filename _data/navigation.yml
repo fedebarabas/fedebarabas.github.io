@@ -1,7 +1,7 @@
 # main links
 main:
-#  - title: "pandas"
-#    url: /pandas/
+  - title: "blog"
+    url: /blog/
   - title: "projects gallery"
     url: /gallery/
   - title: "cv"

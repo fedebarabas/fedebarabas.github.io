@@ -9,7 +9,7 @@ image:
   teaser: 2018-03-25-name_similarity.png
 ---
 
-Evolution usage-based similarity of names in Argetnina.
+Evolution usage-based similarity of names in Argentina.
 
 ## How do we measure the similarity of names in terms of the evolution of their use over time?
 

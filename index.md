@@ -13,7 +13,7 @@ Interested in all things stats, data science and visualization.
 
 [:panda_face:](/pandas/)
 
-### I also like
+### I am also into
 * space exploration and astronomy
 * data journalism
 * these subreddits: [/r/dataisbeautiful/](https://www.reddit.com/r/dataisbeautiful/), [/r/MapPorn](https://www.reddit.com/r/MapPorn/)
