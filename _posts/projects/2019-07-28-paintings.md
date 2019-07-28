@@ -12,7 +12,7 @@ header:
 
 Convolutional neural network classifier of art paintings.
 
-# Deep art classifier
+# Intro
 
 Deep learning is taking over the world now, so I want to see what all this fuzz is about. I decided to dive in through the fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/index.html) course. I am loving its right-to-the-point learn and code fast approach!
 
@@ -238,7 +238,7 @@ learn.recorder.plot()
 ```
 
 
-![png](images/2019-07-28-paintings/output_24_0.png)
+![png](/images/2019-07-28-paintings/output_24_0.png)
 
 
 
@@ -292,7 +292,7 @@ interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
 ```
 
 
-![png](images/2019-07-28-paintings/output_29_0.png)
+![png](/images/2019-07-28-paintings/output_29_0.png)
 
 
 
