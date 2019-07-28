@@ -13,4 +13,4 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 _posts/projects/tmp.html
-_posts/projects/.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/*
